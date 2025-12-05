@@ -64,6 +64,19 @@ const Navbar = () => {
             Skills & Expertise
           </a>
 
+                      <a href="#experience"
+            to="/experience"
+            className={({ isActive }) =>
+               `transition-all duration-300 ${
+      isActive
+        ? "text-white drop-shadow-[0_0_3px_rgba(255,255,255,0.45)]"
+        : "text-gray-400 hover:text-white hover:drop-shadow-[0_0_3px_rgba(255,255,255,0.45)]"
+    }`
+            }
+          >
+            Experience
+          </a>
+          
           <a href="#contact"
             to="/contact"
             className={({ isActive }) =>
@@ -88,3 +101,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
