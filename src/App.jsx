@@ -10,6 +10,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import Contact from './Components/Contact'
+import Experience from './Components/Experience'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+     <Experience />
       <Contact />
     </BrowserRouter>
     </>
